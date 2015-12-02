@@ -1,0 +1,236 @@
+body {
+	font-family: 'Open Sans';
+	background: #e7e7e7;
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+footer {
+	position: relative;
+	height: 350px;
+	background-color: #333333;
+}
+
+header {
+	width: 600px;
+	margin: 0 auto;
+}
+
+header .heading {
+	font-size: 160px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 150px;
+	margin-top: 60px;
+	color: #848484;
+	font-weight: 800;
+	margin-bottom: 25px;
+}
+
+header .introduction {
+	font-size: 18px;
+	text-align: justify;
+	margin-bottom: 90px;
+}
+
+header .signature {
+	display: block;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 30px;
+}
+
+header .amount {
+	display: inline-block;
+	width: 100%;
+	margin-bottom: 140px;
+	line-height: 80px;
+	font-size: 120px;
+	font-weight: 600;
+	text-align: center;
+	color: #848484;
+}
+
+.main {
+	//width: 60%;
+	max-width: 1680px;
+	margin: 0 auto;
+}
+
+.heading {
+	color: #ddd;
+}
+
+.images {
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+	margin-bottom: 90px;
+	text-align: center;
+}
+
+.images .image {
+	position: relative;
+	display: inline-block;
+	margin: 50px 50px 0 0;
+}
+
+.images .image img {
+	width: 450px;
+	height: auto;
+}
+
+.images .image .spot {
+	width: 110px;
+	height: 110px;
+	border-radius: 50px;
+	background: #222;
+}
+
+.spot {
+	position: absolute;
+}
+
+.spot.christmas {
+	top: 10px;
+	left: 10px;
+}
+
+.spot.company {
+	margin: auto;
+	top: 0; 
+	left: 0; 
+	bottom: 0; 
+	right: 0;
+}
+
+.spot .info {
+	margin-top: 32px;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+	font-size: 11px;
+}
+
+.company-name {
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+.company-amount {
+	font-size: 23px;
+	font-weight: 500;
+}
+
+.organisations {
+	background-color: #848484;
+	color: #fff;
+	text-align: center;
+	padding: 80px;
+}
+
+.organisations .info-wrapper {
+	display: inline-block;
+	max-width: 1680px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.organisations .info-wrapper h2 {
+	float: left;
+	font-size: 60px;
+	width: 250px;
+	line-height: 65px;
+	text-align: right;
+	text-transform: uppercase;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 30px;
+}
+
+.organisations .info-wrapper p {
+	float: left;
+	width: 500px;
+	margin-top: 10px;
+	text-align: left;
+}
+
+.organisations .organisation-wrapper {
+	overflow: hidden;
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+
+.organisations .organisation {
+	display: inline-block;
+	width: 225px;
+	height: 115px;
+	margin: 25px;
+	border: 1px solid #fff;
+}
+
+.organisations .organisation span {
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.footer-content {
+	text-align: center;
+	margin-top: 150px;
+	display: inline-block;
+	width: 100%;
+	color: #fff;
+	font-size: 30px;
+	font-weight: 600;
+}
+
+@media all and (max-width: 699px) {
+  		
+  	main {
+  		padding: 25px;
+  	}
+
+	header {
+		width: 100%;
+	}
+
+	header .heading {
+		margin-top: 25px;
+		font-size: 90px;
+		line-height: 100px;
+	}
+
+	header .amount {
+		font-size: 80px;
+		margin-bottom: 40px;
+	}
+
+	.images {
+		margin-bottom: 25px;
+	}
+
+	.images .image {
+		margin: 15px 0;
+		width: 100%;
+	}
+
+	.organisations {
+		padding: 40px;
+	}
+
+	.organisations .info-wrapper h2 {
+		display: block;
+		float: none;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.organisations .info-wrapper p {
+		width: auto;
+	}
+}
