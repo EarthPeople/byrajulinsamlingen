@@ -218,6 +218,7 @@ footer {
 }
 
 @media all and (max-width: 900px) {
+	
 	.images .image {
 		position: relative;
 		margin: 15px 0;
