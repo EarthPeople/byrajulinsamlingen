@@ -1,18 +1,31 @@
 body {
+	padding: 0;
+	margin: 0;
+	border: 0;
 	font-family: 'Open Sans';
 	background: #e7e7e7;
-	padding: 0;
-	border: 0;
-	margin: 0;
 }
 
 a {
-	color: #fff;
 	text-decoration: none;
 }
 
 a:hover {
 	text-decoration: underline;
+}
+
+header .navigation {
+	width: 600px;
+	margin: 30px auto;
+	font-size: 18px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+header .navigation a {
+	margin: 0 20px;
+	font-weight: 700;
+	color: #848484;
 }
 
 footer {
@@ -21,12 +34,17 @@ footer {
 	background-color: #333333;
 }
 
-header {
+.wrapper {
+	max-width: 1680px;
+	margin: 0 auto;
+}
+
+.introduction {
 	width: 600px;
 	margin: 0 auto;
 }
 
-header .heading {
+.introduction .heading {
 	font-size: 160px;
 	text-align: center;
 	text-transform: uppercase;
@@ -38,38 +56,29 @@ header .heading {
 	margin-left: -17px;
 }
 
-header .introduction {
+.introduction .text {
+	margin-bottom: 90px;
 	font-size: 18px;
 	text-align: justify;
-	margin-bottom: 90px;
 }
 
-header .signature {
+.introduction .signature {
 	display: block;
 	margin-bottom: 15px;
+	font-size: 30px;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 30px;
 }
 
-header .amount {
+.introduction .amount {
 	display: inline-block;
 	width: 100%;
 	margin-bottom: 140px;
-	line-height: 80px;
 	font-size: 120px;
 	font-weight: 700;
+	line-height: 80px;
 	text-align: center;
 	color: #848484;
-}
-
-.main {
-	max-width: 1680px;
-	margin: 0 auto;
-}
-
-.heading {
-	color: #ddd;
 }
 
 .images {
@@ -182,6 +191,10 @@ header .amount {
 	border: 1px solid #fff;
 }
 
+.organisations .organisation-wrapper .organisation a {
+	color: #fff;
+}
+
 .organisations .organisation-wrapper .organisation span {
 	display: inline-block;
 	margin-top: 30px;
@@ -221,37 +234,48 @@ header .amount {
 
 @media all and (max-width: 700px) {
   		
-  	main {
+  	.wrapper {
   		padding: 25px;
   	}
 
-	header {
+  	.navigation {
+  		width: 100%;
+  		margin-bottom: 35px;
+  	}
+
+  	.navigation a {
+  		display: block;
+  		margin-bottom: 15px;
+  	}
+
+	.introduction-wrapper {
 		width: 100%;
 	}
 
-	header .heading {
+	.introduction-wrapper .heading {
 		margin-top: 25px;
 		font-size: 70px;
 		line-height: 70px;
 		margin-left: -10px;
 	}
 
-	header .introduction {
+	.introduction-wrapper .introduction {
 		margin-bottom: 50px;
 	}
 
-	header .signature {
+	.introduction-wrapper .signature {
 		margin-bottom: 0;
 		font-size: 25px;
 	}
 
-	header .amount {
+	.introduction-wrapper .amount {
 		font-size: 62px;
 		margin-bottom: 80px;
 	}
 
 	.images {
 		margin-bottom: 25px;
+		padding: 25px;
 	}
 
 	.images .image img {
