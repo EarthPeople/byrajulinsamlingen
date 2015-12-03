@@ -3,6 +3,11 @@ var Christmas = function() {
 
 	function init() {
 		shuffle($('.image'));
+
+		$('.organisation').find('img').click(function(e) {
+			var link = $(this).siblings().attr('href');
+			window.location.href = link;
+		})
 	}
 
 	function shuffle(elements) {
