@@ -94,7 +94,10 @@ footer {
 .images .image {
 	position: relative;
 	display: inline-block;
-	margin: 50px 50px 0 0;
+	width: 450px;
+    height: 318px;
+   	margin: 50px 50px 0 0;
+    overflow: hidden;
 }
 
 .images .image img {
