@@ -241,10 +241,11 @@ header .amount {
 
 	header .signature {
 		margin-bottom: 0;
+		font-size: 25px;
 	}
 
 	header .amount {
-		font-size: 75px;
+		font-size: 62px;
 		margin-bottom: 80px;
 	}
 
