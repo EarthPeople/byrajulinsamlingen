@@ -281,6 +281,11 @@ footer {
 		padding: 25px;
 	}
 
+	.images .image {
+		width: 100%;
+		height: auto;
+	}
+
 	.images .image img {
 		width: 100%;
 	}
