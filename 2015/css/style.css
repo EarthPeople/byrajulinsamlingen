@@ -233,6 +233,7 @@ header .amount {
 		margin-top: 25px;
 		font-size: 70px;
 		line-height: 70px;
+		margin-left: -10px;
 	}
 
 	header .introduction {
