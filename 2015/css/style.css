@@ -248,27 +248,27 @@ footer {
   		margin-bottom: 15px;
   	}
 
-	.introduction-wrapper {
+	.introduction {
 		width: 100%;
 	}
 
-	.introduction-wrapper .heading {
+	.introduction .heading {
 		margin-top: 25px;
 		font-size: 70px;
 		line-height: 70px;
 		margin-left: -10px;
 	}
 
-	.introduction-wrapper .introduction {
+	.introduction .text {
 		margin-bottom: 50px;
 	}
 
-	.introduction-wrapper .signature {
+	.introduction .signature {
 		margin-bottom: 0;
 		font-size: 25px;
 	}
 
-	.introduction-wrapper .amount {
+	.introduction .amount {
 		font-size: 62px;
 		margin-bottom: 80px;
 	}
