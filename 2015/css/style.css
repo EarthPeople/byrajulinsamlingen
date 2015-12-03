@@ -238,12 +238,12 @@ footer {
   		padding: 25px;
   	}
 
-  	.navigation {
+  	header .navigation {
   		width: 100%;
   		margin-bottom: 35px;
   	}
 
-  	.navigation a {
+  	header .navigation a {
   		display: block;
   		margin-bottom: 15px;
   	}
