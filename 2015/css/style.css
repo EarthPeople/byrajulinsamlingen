@@ -248,8 +248,15 @@ footer {
   	header .navigation a {
   		display: block;
   		margin-bottom: 15px;
+  		transition: 0.5s;
   	}
-
+  	
+  	header .navigation a:hover {
+  		display: block;
+  		margin-bottom: 15px;
+  		color: #a0a0a0;
+  	}
+  	
 	footer {
 		padding: 25px;
 	}
