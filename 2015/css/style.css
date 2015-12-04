@@ -8,10 +8,11 @@ body {
 
 a {
 	text-decoration: none;
+	transition: 0.5s;
 }
 
 a:hover {
-	text-decoration: underline;
+	color: #f4f4f4;
 }
 
 header .navigation {
