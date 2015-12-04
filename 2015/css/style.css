@@ -107,15 +107,15 @@ footer {
 
 .images .image .spot {
 	position: absolute;
-	width: 110px;
-	height: 110px;
+	width: 90px;
+	height: 90px;
 	border-radius: 50%;
 	background: #222;
 }
 
 .spot.christmas {
-	top: 10px;
-	left: 10px;
+	top: 6px;
+	left: 6px;
 }
 
 .spot.company {
@@ -141,7 +141,7 @@ footer {
 }
 
 .spot .company-amount {
-	font-size: 23px;
+	font-size: 20px;
 	font-weight: 500;
 }
 
@@ -305,5 +305,37 @@ footer {
 
 	.organisations .info-wrapper {
 		margin-top: 20px;
+	}
+}
+
+@media all and (max-width: 400px) {
+
+	.images .image .spot {
+		width: 70px;
+		height: 70px;
+	}
+
+	.spot .info {
+		margin-top: 24px;
+	}
+
+	.spot .company-amount {
+		font-size: 16px;
+	}
+}
+
+@media all and (max-width: 320px) {
+
+	.images .image .spot {
+		width: 60px;
+		height: 60px;
+	}
+
+	.spot .info {
+		margin-top: 19px;
+	}
+
+	.spot .company-amount {
+		font-size: 14px;
 	}
 }
