@@ -319,6 +319,11 @@ footer {
 		margin-top: 24px;
 	}
 
+	.spot.christmas {
+		top: 4px;
+		left: 4px;
+	}
+
 	.spot .company-amount {
 		font-size: 16px;
 	}
