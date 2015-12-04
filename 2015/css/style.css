@@ -30,6 +30,12 @@ header .navigation a {
 	color: #848484;
 }
 
+header .navigation a:hover {
+	margin: 0 20px;
+	font-weight: 700;
+	color: #a83939;
+}
+
 footer {
 	position: relative;
 	height: 350px;
