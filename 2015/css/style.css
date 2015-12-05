@@ -13,15 +13,15 @@ a {
 }
 
 a:hover {
-	color: red;
+	color: #ff0000;
 }
 
 p.text a, ul li a {
-	color: #000;
+	color: #ae0000;
 	text-decoration: none;
-	background-color: #fff;
 	padding-left: 6px;
 	padding-right: 6px;
+	font-weight: 600;
 }
 
 header .navigation {
