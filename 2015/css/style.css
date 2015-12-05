@@ -13,8 +13,8 @@ a {
 }
 
 p.text a, ul li a {
-	color: #ae0000;
-	text-decoration: none;
+	color: #afafaf;
+	text-decoration: underline;
 	padding-left: 6px;
 	padding-right: 6px;
 	font-weight: 600;
