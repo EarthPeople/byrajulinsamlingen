@@ -20,6 +20,10 @@ p.text a, ul li a {
 	font-weight: 600;
 }
 
+p.text a, ul li a:hover {
+	color: #ff0000;
+}
+
 a:hover {
 	color: #ff0000;
 }
