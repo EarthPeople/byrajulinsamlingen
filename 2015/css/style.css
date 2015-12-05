@@ -12,16 +12,16 @@ a {
 	transition: 0.5s;
 }
 
-a:hover {
-	color: #ff0000;
-}
-
 p.text a, ul li a {
 	color: #ae0000;
 	text-decoration: none;
 	padding-left: 6px;
 	padding-right: 6px;
 	font-weight: 600;
+}
+
+a:hover {
+	color: #ff0000;
 }
 
 header .navigation {
