@@ -12,17 +12,14 @@ a {
 	transition: 0.5s;
 }
 
-p.text a, ul li a {
+p.text a, ul li a{
 	color: #afafaf;
 	text-decoration: underline;
 	padding-left: 6px;
 	padding-right: 6px;
 	font-weight: 600;
-	transition: 0.5s;
 }
 
-p.text a, ul li a:hover {
-	color: #ff0000;
 }
 
 a:hover {
