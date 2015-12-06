@@ -14,11 +14,9 @@ a {
 
 p.text a, ul li {
 	color: #afafaf;
-	text-decoration: underline;
 	padding-left: 6px;
 	padding-right: 6px;
 	font-weight: 600;
-	transition: 0.5s;
 }
 
 }
