@@ -21,8 +21,6 @@ p.text a, ul li a {
 	transition: 0.5s;
 }
 
-p.text a, ul li a:hover {
-	color: #ff0000;
 }
 
 a:hover {
