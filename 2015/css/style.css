@@ -297,8 +297,8 @@ footer {
 
 	.introduction .heading {
 		margin-top: 25px;
-		font-size: 50px;
-		line-height: 70px;
+		font-size: 60px;
+		line-height: 65px;
 		margin-left: -10px;
 	}
 
@@ -340,6 +340,13 @@ footer {
 
 	.organisations .info-wrapper {
 		margin-top: 20px;
+	}
+}
+
+@media all and (max-width: 460px) {
+	.introduction .heading {
+		font-size: 44px;
+		line-height: 48px;
 	}
 }
 
