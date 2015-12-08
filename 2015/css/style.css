@@ -7,7 +7,6 @@ body {
 }
 
 a {
-	color: #afafaf;
 	text-decoration: none;
 	transition: 0.5s;
 }
@@ -76,6 +75,10 @@ footer {
 .wrapper {
 	max-width: 1680px;
 	margin: 0 auto;
+}
+
+.navigation a {
+	color: #afafaf;
 }
 
 .introduction {
