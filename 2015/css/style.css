@@ -476,7 +476,7 @@ ul.images .image .spot {
 	}
 
 	ol.join-list {
-		padding: 0 0px 30px 45px;
+		padding: 0px 30px 45px;
 	}
 
 	ul.images .image .spot {
@@ -498,7 +498,7 @@ ul.images .image .spot {
 	}
 
 	.help-list {
-		margin-bottom: 0;
+		margin-bottom: 0 7px;
 	}
 
 	.suggestions {
