@@ -305,6 +305,7 @@ ul.images .image .spot {
 }
 
 .suggestions {
+	text-align: center;
 	max-width: 500px;
 	margin: auto;
 	margin: 50px auto;
