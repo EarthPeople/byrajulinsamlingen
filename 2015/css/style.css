@@ -327,7 +327,7 @@ ul.images .image .spot {
 
 @media all and (max-width: 900px) {
 	
-	.images .image {
+	ul.images .image {
 		position: relative;
 		margin: 15px 0;
 	}
@@ -405,17 +405,17 @@ ul.images .image .spot {
 		font-size: 20px;
 	}
 
-	.images {
+	ul.images {
 		margin-bottom: 25px;
 		padding: 0;
 	}
 
-	.images .image {
+	ul.images .image {
 		width: 100%;
 		height: auto;
 	}
 
-	.images .image img {
+	ul.images .image img {
 		width: 100%;
 	}
 
@@ -441,7 +441,7 @@ ul.images .image .spot {
 
 @media all and (max-width: 400px) {
 
-	.images .image .spot {
+	ul.images .image .spot {
 		width: 70px;
 		height: 70px;
 	}
@@ -470,7 +470,7 @@ ul.images .image .spot {
 		margin-bottom: 30px;
 	}
 
-	.images .image .spot {
+	ul.images .image .spot {
 		width: 60px;
 		height: 60px;
 	}
