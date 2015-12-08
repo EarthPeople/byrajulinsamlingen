@@ -199,7 +199,7 @@ ul.help-list .heading {
 }
 
 ul.help-list p {
-	margin-top: 10px;
+	margin-top: 5px;
 }
 
 ul.images .image .spot {
@@ -305,7 +305,6 @@ ul.images .image .spot {
 }
 
 .suggestions {
-	text-align: center;
 	max-width: 500px;
 	margin: auto;
 	margin: 50px auto;
@@ -313,6 +312,7 @@ ul.images .image .spot {
 
 .suggestions span {
 	display: inline-block;
+	padding: 0 13px;
 }
 
 .footer-content {
