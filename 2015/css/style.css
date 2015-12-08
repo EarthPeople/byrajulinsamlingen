@@ -11,11 +11,6 @@ a {
 	transition: 0.5s;
 }
 
-p.text a, ul li a{
-	color: #c00011;
-	font-weight: 600;
-}
-
 a:hover {
 	color: #ff0000;
 }
@@ -84,6 +79,11 @@ footer {
 .introduction {
 	width: 690px;
 	margin: 0 auto;
+}
+
+.introduction a {
+	color: #c00011;
+	font-weight: 600;
 }
 
 .introduction.help {
