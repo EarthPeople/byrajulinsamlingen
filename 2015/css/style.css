@@ -162,7 +162,6 @@ ol.join-list > li:before {
     text-align:center;
 }
 
-
 ul.images {
 	margin-top: 140px;
 	max-width: 1200px;
@@ -400,6 +399,9 @@ ul.images .image .spot {
 
 	ol.join-list {
 		width: 100%;
+		margin-left: 25px;
+		padding: 0 0px 30px 50px;
+		box-sizing: border-box;
 	}
 
 	ul.help-list .heading {
