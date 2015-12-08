@@ -399,7 +399,7 @@ ul.images .image .spot {
 
 	ol.join-list {
 		width: 100%;
-		padding: 0 0px 30px 50px;
+		padding: 0 0px 30px 74px;
 		box-sizing: border-box;
 	}
 
@@ -470,6 +470,10 @@ ul.images .image .spot {
 
 	.introduction.help .text {
 		margin-bottom: 30px;
+	}
+
+	ol.join-list {
+		padding: 0 0px 30px 50px;
 	}
 
 	ul.images .image .spot {
