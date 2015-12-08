@@ -104,6 +104,11 @@ footer {
 	max-width: 500px;
 }
 
+.introduction.join .text,
+.introduction.help .text{
+	margin: 35px 0;
+}
+
 .introduction > .heading {
 	font-size: 80px;
 	text-align: center;
