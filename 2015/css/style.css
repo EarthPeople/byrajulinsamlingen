@@ -51,7 +51,7 @@ li {
 
 footer {
 	position: relative;
-	height: 350px;
+	height: 200px;
 	background-color: #333333;
 }
 
@@ -322,7 +322,7 @@ ul.images .image .spot {
 
 .footer-content {
 	text-align: center;
-	margin-top: 150px;
+	margin-top: 90px;
 	display: inline-block;
 	width: 100%;
 	color: #fff;
