@@ -283,7 +283,7 @@ ul.images .image .spot {
 	margin-top: 15px;
 }
 
-.organisations .organisation-wrapper .organisation {
+.organisation-wrapper .organisation {
 	display: inline-block;
 	width: 225px;
 	height: 115px;
@@ -291,11 +291,11 @@ ul.images .image .spot {
 	border: 1px solid #fff;
 }
 
-.organisations .organisation-wrapper .organisation a {
+.organisation-wrapper .organisation a {
 	color: #fff;
 }
 
-.organisations .organisation-wrapper .organisation span {
+.organisation-wrapper .organisation span {
 	display: inline-block;
 	margin-top: 30px;
 }
@@ -495,5 +495,9 @@ ul.images .image .spot {
 	.suggestions {
 	    padding: 0 25px;
 	    margin-top: 0;
+	}
+
+	.suggestions span {
+    	padding: 0;
 	}
 }
