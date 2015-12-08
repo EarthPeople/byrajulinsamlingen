@@ -204,6 +204,9 @@ ul.images .image img {
 
 ul.help-list {
 	padding: 0;
+}
+
+ul.help-list .item {
 	margin-bottom: 25px;
 }
 
