@@ -7,6 +7,8 @@ body {
 }
 
 a {
+	color: #c00011;
+	font-weight: 600;
 	text-decoration: none;
 	transition: 0.5s;
 }
@@ -33,20 +35,6 @@ header .navigation a:hover {
 	margin: 0 20px;
 	font-weight: 700;
 	color: #b1b1b1;
-}
-
-a.contribute {
-    background-color: #c00011;
-    font-size: 22px;
-    padding: 30px 40px 30px 40px;
-    color: #fff !important;
-    text-align: center;
-    display: inline-block;
-    margin-bottom: 20px;
-}
-
-a.contribute:hover {
-    background-color: #ff0000;
 }
 
 h3 {
@@ -81,9 +69,25 @@ footer {
 	margin: 0 auto;
 }
 
-a {
-	color: #c00011;
-	font-weight: 600;
+.contribute {
+	display: block;
+    margin: 0 auto;
+    width: 150px;
+    background-color: #c00011;
+    font-size: 22px;
+    padding: 30px 40px 30px 40px;
+    color: #fff !important;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contribute:hover {
+    background-color: #ff0000;
+}
+
+.contribute + span {
+	display: block;
+	text-align: center;
 }
 
 .introduction.help {
