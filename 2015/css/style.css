@@ -61,7 +61,6 @@ h3{
 	color: #848484;
 	font-weight: 700;
 	margin-bottom: -5px;
-	margin-left: -40px;
 }
 
 li {
@@ -84,7 +83,11 @@ footer {
 	margin: 0 auto;
 }
 
-.introduction .heading {
+.introduction.help {
+	max-width: 500px;
+}
+
+.introduction > .heading {
 	font-size: 80px;
 	text-align: center;
 	text-transform: uppercase;
@@ -122,7 +125,45 @@ footer {
 	color: #848484;
 }
 
-.images {
+ol.join-list li span a {
+	color: #c00011;
+	font-weight: 600;
+}
+
+ol.join-list {
+    counter-reset:li;
+    margin: 30px 0;
+    padding: 0;
+    margin: 0 auto;
+    width: 440px;
+    padding: 0 0 30px 20px;
+}
+ol.join-list > li {
+    position:relative;
+    margin:0 0 6px 0;
+    padding:4px 8px;
+    list-style:none;
+}
+ol.join-list > li:before {
+    content:counter(li);
+    counter-increment:li;
+    position:absolute;
+    top: 50%;
+    left: -25px;
+    width: 0;
+    height: 0;
+    line-height: 0;
+    margin-right:8px;
+    padding:0;
+    margin: 0;
+    font-weight:bold;
+    font-size: 26px;
+    color: #848484;
+    text-align:center;
+}
+
+
+ul.images {
 	margin-top: 140px;
 	max-width: 1200px;
 	margin: 0 auto;
@@ -133,7 +174,7 @@ footer {
 	text-align: center;
 }
 
-.images .image {
+ul.images .image {
 	position: relative;
 	display: inline-block;
 	width: 450px;
@@ -142,12 +183,26 @@ footer {
     overflow: hidden;
 }
 
-.images .image img {
+ul.images .image img {
 	width: 450px;
 	height: auto;
 }
 
-.images .image .spot {
+ul.help-list {
+	padding: 0 13px;
+}
+
+ul.help-list .heading {
+	font-size: 22px;
+	line-height: 28px;
+	margin-bottom: 0;
+}
+
+ul.help-list p {
+	margin-top: 10px;
+}
+
+ul.images .image .spot {
 	position: absolute;
 	width: 90px;
 	height: 90px;
@@ -249,6 +304,17 @@ footer {
 	cursor: pointer;
 }
 
+.suggestions {
+	text-align: center;
+	max-width: 500px;
+	margin: auto;
+	margin: 50px auto;
+}
+
+.suggestions span {
+	display: inline-block;
+}
+
 .footer-content {
 	text-align: center;
 	margin-top: 150px;
@@ -309,7 +375,7 @@ footer {
 		width: 100%;
 	}
 
-	.introduction .heading {
+	.introduction > .heading {
 		margin-top: 25px;
 		font-size: 60px;
 		line-height: 72px;
@@ -328,6 +394,15 @@ footer {
 	.introduction .amount {
 		font-size: 62px;
 		margin-bottom: 80px;
+	}
+
+
+	ol.join-list {
+		width: 100%;
+	}
+
+	ul.help-list .heading {
+		font-size: 20px;
 	}
 
 	.images {
@@ -387,6 +462,14 @@ footer {
 
 @media all and (max-width: 320px) {
 
+	.introduction .text {
+		margin-bottom: 30px;
+	}
+
+	.introduction.help .text {
+		margin-bottom: 30px;
+	}
+
 	.images .image .spot {
 		width: 60px;
 		height: 60px;
@@ -403,5 +486,14 @@ footer {
 
 	.spot .company-amount {
 		font-size: 14px;
+	}
+
+	.help-list {
+		margin-bottom: 0;
+	}
+
+	.suggestions {
+	    padding: 0 25px;
+	    margin-top: 0;
 	}
 }
