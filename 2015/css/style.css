@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
 body {
 	padding: 0;
 	margin: 0;
@@ -51,13 +59,15 @@ li {
 
 footer {
 	position: relative;
-	height: 200px;
+	height: 350px;
 	background-color: #333333;
 }
 
 .wrapper {
 	max-width: 1680px;
 	margin: 0 auto;
+	min-height: 100%;
+  	margin-bottom: -350px; 
 }
 
 .navigation a {
@@ -320,9 +330,18 @@ ul.images .image .spot {
 	padding: 0 13px;
 }
 
+.wrapper:after {
+  content: "";
+  display: block;
+}
+
+footer, .wrapper:after {
+  height: 350px; 
+}
+
 .footer-content {
 	text-align: center;
-	margin-top: 90px;
+	margin-top: 150px;
 	display: inline-block;
 	width: 100%;
 	color: #fff;
