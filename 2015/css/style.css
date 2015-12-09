@@ -142,6 +142,10 @@ footer {
 	color: #848484;
 }
 
+.share {
+	text-align: center;
+}
+
 ol.join-list li span a {
 	font-weight: 600;
 }
