@@ -26,8 +26,10 @@
 			</header>
 			<article class="introduction join">
 				<h1 class="heading">Gå med här</h1>
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/_cLHCp2vkv8" frameborder="0" allowfullscreen></iframe>
+
 				<p class="text">
-					<span>Så här går du till väga för att stötta initiativet:</span>
+					<span>Tillsammans kan vi göra skillnad! Vi uppmanar alla byråer att skänka pengar den här julen för att hjälpa våra medmänniskor på flykt från krig och förföljelse. Låt pengarna som vi spenderar på bidrag till tävlingar och julklappar till kunder göra större nytta hos FN:s flyktingorgan UNHCR. Se filmen om UNHCR:s arbete här och gör oss gärna sällskap med ett bidrag nedan.</span>
 				</p>
 				<ol class="join-list">
 					<li class="item">
@@ -48,6 +50,7 @@
 		
 		<script type="text/javascript" src="2015/vendor/jquery.js"></script>
 		<script type="text/javascript" src="2015/js/script.js"></script>
+		<script type="text/javascript" src="2015/js/fitvid.js"></script>
 		<script>
 			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -55,6 +58,9 @@
 			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 			ga('create', 'UA-3068474-17', 'auto');
 			ga('send', 'pageview');
+			$(document).ready(function(){
+				$(".introduction").fitVids();
+			});
 		</script>
 	</body>
 </html>
