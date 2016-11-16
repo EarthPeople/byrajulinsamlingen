@@ -29,6 +29,11 @@ header .navigation {
 	text-transform: uppercase;
 }
 
+header .navigation ul {
+	margin: 0;
+	padding: 0;
+}
+
 header .navigation li {
 	display: inline-block;
 }
