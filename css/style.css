@@ -6,7 +6,7 @@ body {
 	padding: 0;
 	margin: 0;
 	border: 0;
-	font-family: 'Open Sans';
+	font-family: 'Open Sans', sans-serif;
 	background: #e7e7e7;
 }
 
@@ -29,6 +29,10 @@ header .navigation {
 	text-transform: uppercase;
 }
 
+header .navigation li {
+	display: inline-block;
+}
+
 header .navigation a {
 	margin: 0 20px;
 	font-weight: 700;
@@ -39,6 +43,10 @@ header .navigation a:hover {
 	margin: 0 20px;
 	font-weight: 700;
 	color: #b1b1b1;
+}
+
+header .navigation .active {
+	text-decoration: underline;
 }
 
 h3 {
@@ -60,14 +68,41 @@ footer {
 }
 
 .wrapper {
-	max-width: 1680px;
-	margin: 0 auto;
+	margin: 0 auto -350px;
 	min-height: 100%;
-  	margin-bottom: -350px; 
 }
 
-.navigation a {
-	color: #afafaf;
+.year-navigation {
+	background: #dadada;
+	box-sizing: border-box;
+	margin: 0 0 20px;
+	padding: 30px;
+	width: 100%;
+}
+
+.year-navigation ul {
+	margin: 0 auto;
+	padding: 0;
+	width: 690px;
+}
+
+.year-navigation li {
+	display: inline-block;
+	text-align: center;
+	width: 49%;
+}
+
+.year-navigation a {
+	color: #848484;
+	font-size: 42px;
+}
+
+.year-navigation a:hover {
+	color: #ff0000;
+}
+
+.year-navigation .active {
+	color: #c00011;
 }
 
 .introduction {
@@ -232,7 +267,11 @@ ul.images .image .spot {
 	border-radius: 50%;
 	background: #222;
 }
-
+.contribution {
+	font-weight: bold;
+	margin: 0 0 5px;
+	text-align: left;
+}
 .spot.christmas {
 	top: 6px;
 	left: 6px;
@@ -432,6 +471,10 @@ footer, .wrapper:after {
     	margin-bottom: -5px;
 	}
 
+	.year-navigation ul {
+		width: 100%;
+	}
+
 
 	ol.join-list {
 		width: 100%;
@@ -475,6 +518,7 @@ footer, .wrapper:after {
 		font-size: 44px;
 		line-height: 48px;
 	}
+
 }
 
 @media all and (max-width: 400px) {
@@ -482,6 +526,11 @@ footer, .wrapper:after {
 	ul.images .image .spot {
 		width: 70px;
 		height: 70px;
+	}
+
+	.year-navigation li {
+		display: block;
+		width: 100%;
 	}
 
 	.spot .info {
@@ -531,7 +580,7 @@ footer, .wrapper:after {
 	}
 
 	.help-list {
-		margin-bottom: 0 7px;
+		margin-bottom: 7px;
 	}
 
 	.suggestions {
