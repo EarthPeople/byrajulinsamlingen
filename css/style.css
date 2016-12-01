@@ -32,6 +32,7 @@ body {
 	background: #9fdb8d;
     background-image: url(/images/2016/bg.gif);
     color: #10401a;
+    -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -49,6 +50,7 @@ h1, h2, h3, h4 {
     font-family: 'Bungee', cursive;
     -webkit-font-smoothing: auto;
     text-align: center;
+    font-weight: normal;
 }
 
 header .navigation {
@@ -166,9 +168,9 @@ footer {
 	text-align: center;
 }
 
-.introduction.help {
+/*.introduction.help {
 	max-width: 500px;
-}
+}*/
 
 .introduction.join .text,
 .introduction.help .text{
@@ -189,6 +191,10 @@ footer {
 	margin-top: 26px;
 	font-size: 18px;
 	text-align: center;
+}
+
+.introduction .text--fuskmargin {
+    margin: 0 50px;
 }
 
 .introduction .signature,
@@ -297,6 +303,7 @@ ul.images .image img {
 
 ul.help-list {
 	padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 ul.help-list .item {
@@ -304,9 +311,10 @@ ul.help-list .item {
 }
 
 ul.help-list .heading {
-	font-size: 22px;
+	font-size: 16px;
 	line-height: 28px;
 	margin-bottom: 0;
+    color: #d33a3a;
 }
 
 ul.help-list p {
