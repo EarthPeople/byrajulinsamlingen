@@ -130,7 +130,7 @@ footer {
 .year-navigation li {
 	display: inline-block;
 	text-align: center;
-	width: 49%;
+	width: 48%;
 }
 
 .year-navigation a {
@@ -153,7 +153,7 @@ footer {
     margin: 0 auto;
     background-color: #d33a3a;
     font-size: 72px;
-    padding: 15px 10px 24px 10px;
+    padding: 15px 5px 24px 5px;
     color: #fff !important;
     text-align: center;
     margin-bottom: 40px;
@@ -462,6 +462,7 @@ footer, .wrapper:after {
 .site-footer {
     text-align: center;
     font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
 }
 
 .site-footer p {
@@ -558,10 +559,18 @@ footer, .wrapper:after {
     	margin-bottom: -5px;
 	}
 
-	.year-navigation ul {
-		width: 100%;
-	}
+    .contribute {
+        font-size: 42px;
+    }
 
+    .introduction .text--fuskmargin {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .year-navigation ul {
+        max-width: 100%;
+    }
 
 	ol.join-list {
 		width: 100%;
@@ -598,6 +607,19 @@ footer, .wrapper:after {
 	.organisations .info-wrapper {
 		margin-top: 20px;
 	}
+
+    .year-navigation,
+    .site-footer {
+        margin-top: -25px;
+        margin-left: -25px;
+        margin-right: -25px;
+        width: auto;
+    }
+
+    .site-footer {
+        margin-right: 0;
+    }
+
 }
 
 @media all and (max-width: 460px) {
@@ -613,11 +635,6 @@ footer, .wrapper:after {
 	ul.images .image .spot {
 		width: 70px;
 		height: 70px;
-	}
-
-	.year-navigation li {
-		display: block;
-		width: 100%;
 	}
 
 	.spot .info {
