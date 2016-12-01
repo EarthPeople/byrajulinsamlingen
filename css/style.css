@@ -36,13 +36,13 @@ body {
 }
 
 a {
-	color: #d33a3a;
+	color: #10401a;
 	text-decoration: none;
 	transition: 0.5s;
+    text-decoration: underline;
 }
 
 a:hover {
-	color: #d33a3a;
 }
 
 h1, h2, h3, h4 {
@@ -73,6 +73,7 @@ header .navigation li {
 header .navigation a {
 	margin: 0 20px;
 	color: #679a5e;
+    text-decoration: none;
 }
 
 header .navigation a:hover {
@@ -134,6 +135,7 @@ footer {
 
 .year-navigation a {
 	color: #679a5e;
+    text-decoration: none;
 }
 
 .year-navigation a:hover,
@@ -151,7 +153,7 @@ footer {
     margin: 0 auto;
     background-color: #d33a3a;
     font-size: 72px;
-    padding: 15px 10px;
+    padding: 15px 10px 24px 10px;
     color: #fff !important;
     text-align: center;
     margin-bottom: 40px;
