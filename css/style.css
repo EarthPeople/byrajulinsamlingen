@@ -1,3 +1,25 @@
+/*
+
+red, ca rubrik + cta
+#d33a3a
+
+hover, t.ex. knapp
+#e74040
+
+grön, valda länkar + brödtext:
+#10401a
+
+grön, inaktiv:
+#679a5e
+
+bungee font:
+font-family: 'Bungee', cursive;
+
+bröd/p
+font-family: 'Open Sans', sans-serif;
+
+*/
+
 html, body {
   height: 100%;
 }
@@ -6,24 +28,32 @@ body {
 	padding: 0;
 	margin: 0;
 	border: 0;
-	font-family: 'Open Sans', sans-serif;
-	background: #e7e7e7;
+    font-family: 'Bungee', cursive;
+	background: #9fdb8d;
+    background-image: url(/images/2016/bg.gif);
+    color: #10401a;
 }
 
 a {
-	color: #c00011;
-	font-weight: 600;
+	color: #d33a3a;
 	text-decoration: none;
 	transition: 0.5s;
 }
 
 a:hover {
-	color: #ff0000;
+	color: #d33a3a;
+}
+
+h1, h2, h3, h4 {
+    color: #d33a3a;
+    font-family: 'Bungee', cursive;
+    -webkit-font-smoothing: auto;
+    text-align: center;
 }
 
 header .navigation {
-	width: 660px;
-	margin: 20px auto;
+	width: 100%;
+	margin: 30px auto;
 	font-size: 18px;
 	text-align: center;
 	text-transform: uppercase;
@@ -40,25 +70,22 @@ header .navigation li {
 
 header .navigation a {
 	margin: 0 20px;
-	font-weight: 700;
-	color: #848484;
+	color: #679a5e;
 }
 
 header .navigation a:hover {
 	margin: 0 20px;
-	font-weight: 700;
-	color: #b1b1b1;
+	color: #10401a;
 }
 
 header .navigation .active {
-	text-decoration: underline;
+    color: #10401a;
 }
 
 h3 {
 	font-size: 26px;
 	line-height: 34px;
 	color: #848484;
-	font-weight: 700;
 	margin-bottom: -5px;
 }
 
@@ -68,21 +95,27 @@ li {
 
 footer {
 	position: relative;
-	height: 350px;
+	height: 175px;
 	background-color: #333333;
 }
 
+.text {
+    font-family: 'Open Sans', sans-serif;
+}
+
 .wrapper {
-	margin: 0 auto -350px;
+	margin: 0 auto -175px;
 	min-height: 100%;
 }
 
-.year-navigation {
-	background: #dadada;
+.year-navigation,
+.site-footer {
+	background: rgba(103, 154, 94, .5);
 	box-sizing: border-box;
-	margin: 0 0 20px;
-	padding: 30px;
+	margin: 0 0 10px;
+	padding: 10px;
 	width: 100%;
+    font-size: 30px;
 }
 
 .year-navigation ul {
@@ -98,16 +131,12 @@ footer {
 }
 
 .year-navigation a {
-	color: #848484;
-	font-size: 42px;
+	color: #679a5e;
 }
 
-.year-navigation a:hover {
-	color: #ff0000;
-}
-
+.year-navigation a:hover,
 .year-navigation .active {
-	color: #c00011;
+    color: #10401a
 }
 
 .introduction {
@@ -118,17 +147,18 @@ footer {
 .contribute {
 	display: block;
     margin: 0 auto;
-    width: 150px;
-    background-color: #c00011;
-    font-size: 22px;
-    padding: 30px 40px 30px 40px;
+    background-color: #d33a3a;
+    font-size: 72px;
+    padding: 15px 10px;
     color: #fff !important;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    width: 75%;
 }
 
 .contribute:hover {
-    background-color: #ff0000;
+    background-color: #e74040;
 }
 
 .contribute + span {
@@ -146,13 +176,11 @@ footer {
 }
 
 .introduction > .heading {
-	font-size: 80px;
+	font-size: 72px;
 	text-align: center;
 	text-transform: uppercase;
-	line-height: 90px;
+	line-height: 80px;
 	margin-top: 30px;
-	color: #848484;
-	font-weight: 800;
 	margin-bottom: 25px;
 }
 
@@ -163,23 +191,43 @@ footer {
 	text-align: center;
 }
 
-.introduction .signature {
+.introduction .signature,
+.introduction .amount,
+.introduction-give-tagline {
+    color: #d33a3a;
+}
+
+.introduction--give {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.introduction p {
+    margin: 0;
+    text-align: center;
+}
+
+p.introduction-give-tagline {
+    margin-top: 20px;
+}
+
+.introduction .signature,
+.introduction-give-tagline {
 	display: block;
 	margin-bottom: 15px;
 	margin-top: 10px;
 	font-size: 30px;
 	text-transform: uppercase;
 	text-align: center;
+
 }
 
 .introduction .amount {
-	display: inline-block;
+	display: block;
 	width: 100%;
 	font-size: 120px;
-	font-weight: 700;
 	line-height: 80px;
 	text-align: center;
-	color: #848484;
 }
 
 .share {
@@ -187,7 +235,7 @@ footer {
 }
 
 ol.join-list li span a {
-	font-weight: 600;
+
 }
 
 ol.join-list {
@@ -195,8 +243,9 @@ ol.join-list {
     margin: 30px 0;
     padding: 0;
     margin: 0 auto;
-    width: 440px;
+    /*width: 440px;*/
     padding: 0 0 30px 50px;
+    /*font-family: 'Open Sans', sans-serif;*/
 }
 ol.join-list > li {
     position:relative;
@@ -216,9 +265,8 @@ ol.join-list > li:before {
     margin-right:8px;
     padding:0;
     margin: 0;
-    font-weight:bold;
     font-size: 26px;
-    color: #848484;
+    color: #10401a;
     text-align:center;
 }
 
@@ -272,11 +320,13 @@ ul.images .image .spot {
 	border-radius: 50%;
 	background: #222;
 }
+
 .contribution {
-	font-weight: bold;
 	margin: 0 0 5px;
 	text-align: left;
+    text-align: center;
 }
+
 .spot.christmas {
 	top: 6px;
 	left: 6px;
@@ -284,9 +334,9 @@ ul.images .image .spot {
 
 .spot.company {
 	margin: auto;
-	top: 0; 
-	left: 0; 
-	bottom: 0; 
+	top: 0;
+	left: 0;
+	bottom: 0;
 	right: 0;
 }
 
@@ -301,12 +351,10 @@ ul.images .image .spot {
 .spot .company-name {
 	text-transform: uppercase;
 	font-size: 13px;
-	font-weight: 700;
 }
 
 .spot .company-amount {
 	font-size: 20px;
-	font-weight: 500;
 }
 
 .organisations {
@@ -326,7 +374,7 @@ ul.images .image .spot {
 .organisations .info-wrapper h2 {
 	float: left;
 	font-size: 60px;
-	width: 250px;
+	width: 175px;
 	line-height: 65px;
 	text-align: right;
 	text-transform: uppercase;
@@ -389,7 +437,7 @@ ul.images .image .spot {
 }
 
 footer, .wrapper:after {
-  height: 350px; 
+  height: 175px;
 }
 
 .footer-content {
@@ -399,11 +447,35 @@ footer, .wrapper:after {
 	width: 100%;
 	color: #fff;
 	font-size: 20px;
-	font-weight: 600;
 }
 
+.site-footer {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.site-footer p {
+    font-size: 1rem;
+}
+
+.site-footer-email {
+    font-weight: bold;
+}
+
+.example-organizations {
+
+}
+
+    .example-organizations-title {
+        color: #10401a;
+    }
+
+    .example-organizations p:last-child {
+        margin-bottom: 40px;
+    }
+
 @media all and (max-width: 900px) {
-	
+
 	ul.images .image {
 		position: relative;
 		margin: 15px 0;
@@ -433,13 +505,13 @@ footer, .wrapper:after {
   		margin-bottom: 15px;
   		transition: 0.5s;
   	}
-  	
+
   	header .navigation a:hover {
   		display: block;
   		margin-bottom: 15px;
   		color: #a0a0a0;
   	}
-  	
+
 	footer {
 		padding: 25px;
 	}
